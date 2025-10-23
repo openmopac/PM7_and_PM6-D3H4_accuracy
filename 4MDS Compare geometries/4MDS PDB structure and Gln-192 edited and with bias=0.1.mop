@@ -1,0 +1,4 @@
+ compare output noreor ++ 
+ geo_ref="../4MDS un-edited PDB structure/3CLpro inhibitor (4MDS).arc" ++
+ geo_dat="../4MDS Gln 192 edited PM6-D3H4 with BIAS=0.1/4MDS, Gln192 edited Optimize.arc" 
+Comparison of 4MDS original PDB structure and 4MDS with Gln-192 edited, and with a bias of 0.1 kcal/(mol Angstrom) applied

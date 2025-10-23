@@ -1,0 +1,3 @@
+display 79, 99, 112 
+reset;center {27.085515151515153 21.542272727272724 10.833727272727272}; rotate z -77.01; rotate y 72.1; rotate z 75.72; zoom 536.06;
+measure (112:A.SG) (79:A.NE)

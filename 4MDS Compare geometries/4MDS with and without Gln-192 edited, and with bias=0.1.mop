@@ -1,0 +1,4 @@
+ compare output noreor ++ 
+ geo_dat="../4MDS Gln 192 edited PM6-D3H4 with BIAS=0.1/4MDS, Gln192 edited Optimize.arc" ++
+ geo_ref="../4MDS un-edited PM6-D3H4 with BIAS=0.1/4MDS Optimize.arc" 
+4MDS with and without Gln-192 edited, and with a bias of 0.1 kcal/(mol Angstrom) applied

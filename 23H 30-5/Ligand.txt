@@ -1,0 +1,6 @@
+if (!L401);
+display add 401;  L401 = TRUE; 
+else hide ADD 401;  L401 = FALSE; 
+end if; 
+if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;
+

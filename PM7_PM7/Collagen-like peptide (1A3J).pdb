@@ -1,0 +1,376 @@
+HEADER  data-set: /Volumes/Data/Work/1SCF/Collagen-like peptide (1A3J)
+REMARK  MOPAC 2016, Version: 21.148M
+REMARK  Date: May 31 2021 10:02
+REMARK  Heat of Formation = -4059.293 Kcal/mol
+ATOM      1  N   PRO A   1       8.994  21.045  21.470  1.00 -0.57      PROT N 
+ATOM      2  CA  PRO A   1       8.388  20.453  20.247  1.00 -0.03      PROT C 
+ATOM      3  C   PRO A   1       9.386  20.473  19.096  1.00  0.57      PROT C 
+ATOM      4  O   PRO A   1      10.375  21.200  19.106  1.00 -0.65      PROT O 
+ATOM      5  CB  PRO A   1       7.151  21.297  19.843  1.00 -0.30      PROT C 
+ATOM      6  CG  PRO A   1       7.101  22.461  20.843  1.00 -0.29      PROT C 
+ATOM      7  CD  PRO A   1       8.009  22.022  22.007  1.00 -0.11      PROT C 
+ATOM      8  H   PRO A   1       9.876  21.512  21.227  1.00  0.29      PROT H 
+ATOM      9  HA  PRO A   1       8.093  19.402  20.501  1.00  0.18      PROT H 
+ATOM     10 1HB  PRO A   1       6.232  20.689  19.888  1.00  0.16      PROT H 
+ATOM     11 2HB  PRO A   1       7.217  21.664  18.802  1.00  0.16      PROT H 
+ATOM     12 1HG  PRO A   1       7.467  23.395  20.384  1.00  0.15      PROT H 
+ATOM     13 2HG  PRO A   1       6.073  22.671  21.180  1.00  0.15      PROT H 
+ATOM     14 1HD  PRO A   1       8.519  22.876  22.489  1.00  0.14      PROT H 
+ATOM     15 2HD  PRO A   1       7.418  21.508  22.795  1.00  0.14      PROT H 
+ATOM     16  N   PRO A   2       9.193  19.637  18.034  1.00 -0.47      PROT N 
+ATOM     17  CA  PRO A   2       9.949  19.849  16.801  1.00  0.01      PROT C 
+ATOM     18  C   PRO A   2       9.489  21.154  16.131  1.00  0.60      PROT C 
+ATOM     19  O   PRO A   2       8.389  21.652  16.388  1.00 -0.70      PROT O 
+ATOM     20  CB  PRO A   2       9.652  18.623  15.927  1.00 -0.27      PROT C 
+ATOM     21  CG  PRO A   2       8.383  17.974  16.510  1.00 -0.28      PROT C 
+ATOM     22  CD  PRO A   2       8.058  18.723  17.821  1.00 -0.07      PROT C 
+ATOM     23  HA  PRO A   2      11.043  19.934  17.061  1.00  0.21      PROT H 
+ATOM     24 1HB  PRO A   2      10.507  17.922  15.937  1.00  0.16      PROT H 
+ATOM     25 2HB  PRO A   2       9.532  18.903  14.868  1.00  0.16      PROT H 
+ATOM     26 1HG  PRO A   2       7.536  18.037  15.801  1.00  0.17      PROT H 
+ATOM     27 2HG  PRO A   2       8.528  16.896  16.694  1.00  0.15      PROT H 
+ATOM     28 1HD  PRO A   2       7.101  19.285  17.740  1.00  0.15      PROT H 
+ATOM     29 2HD  PRO A   2       7.965  18.028  18.683  1.00  0.16      PROT H 
+ATOM     30  N   GLY A   3      10.373  21.779  15.318  1.00 -0.48      PROT N 
+ATOM     31  CA  GLY A   3      10.051  23.053  14.698  1.00 -0.16      PROT C 
+ATOM     32  C   GLY A   3       9.049  22.901  13.565  1.00  0.63      PROT C 
+ATOM     33  O   GLY A   3       8.500  21.829  13.296  1.00 -0.70      PROT O 
+ATOM     34  H   GLY A   3      11.269  21.371  15.046  1.00  0.36      PROT H 
+ATOM     35 1HA  GLY A   3      10.997  23.520  14.313  1.00  0.20      PROT H 
+ATOM     36 2HA  GLY A   3       9.659  23.777  15.466  1.00  0.21      PROT H 
+ATOM     37  N   PRO A   4       8.694  24.027  12.889  1.00 -0.46      PROT N 
+ATOM     38  CA  PRO A   4       7.908  23.990  11.647  1.00  0.02      PROT C 
+ATOM     39  C   PRO A   4       8.728  23.308  10.547  1.00  0.57      PROT C 
+ATOM     40  O   PRO A   4       9.869  22.908  10.758  1.00 -0.65      PROT O 
+ATOM     41  CB  PRO A   4       7.637  25.469  11.311  1.00 -0.30      PROT C 
+ATOM     42  CG  PRO A   4       8.784  26.250  11.971  1.00 -0.27      PROT C 
+ATOM     43  CD  PRO A   4       9.272  25.367  13.133  1.00 -0.07      PROT C 
+ATOM     44  HA  PRO A   4       6.955  23.417  11.809  1.00  0.18      PROT H 
+ATOM     45 1HB  PRO A   4       6.656  25.787  11.717  1.00  0.17      PROT H 
+ATOM     46 2HB  PRO A   4       7.577  25.661  10.226  1.00  0.17      PROT H 
+ATOM     47 1HG  PRO A   4       9.598  26.438  11.251  1.00  0.13      PROT H 
+ATOM     48 2HG  PRO A   4       8.450  27.242  12.325  1.00  0.17      PROT H 
+ATOM     49 1HD  PRO A   4      10.383  25.329  13.172  1.00  0.16      PROT H 
+ATOM     50 2HD  PRO A   4       8.911  25.748  14.116  1.00  0.17      PROT H 
+ATOM     51  N   PRO A   5       8.205  23.154   9.299  1.00 -0.46      PROT N 
+ATOM     52  CA  PRO A   5       8.986  22.390   8.311  1.00  0.01      PROT C 
+ATOM     53  C   PRO A   5      10.154  23.245   7.817  1.00  0.60      PROT C 
+ATOM     54  O   PRO A   5      10.305  24.415   8.176  1.00 -0.70      PROT O 
+ATOM     55  CB  PRO A   5       8.009  22.031   7.179  1.00 -0.30      PROT C 
+ATOM     56  CG  PRO A   5       6.605  22.250   7.763  1.00 -0.28      PROT C 
+ATOM     57  CD  PRO A   5       6.783  23.245   8.925  1.00 -0.08      PROT C 
+ATOM     58  HA  PRO A   5       9.399  21.451   8.794  1.00  0.21      PROT H 
+ATOM     59 1HB  PRO A   5       8.161  20.982   6.851  1.00  0.19      PROT H 
+ATOM     60 2HB  PRO A   5       8.182  22.655   6.284  1.00  0.16      PROT H 
+ATOM     61 1HG  PRO A   5       5.896  22.632   7.009  1.00  0.16      PROT H 
+ATOM     62 2HG  PRO A   5       6.173  21.297   8.123  1.00  0.16      PROT H 
+ATOM     63 1HD  PRO A   5       6.557  24.289   8.605  1.00  0.17      PROT H 
+ATOM     64 2HD  PRO A   5       6.116  23.013   9.782  1.00  0.16      PROT H 
+ATOM     65  N   GLY A   6      11.095  22.621   7.062  1.00 -0.48      PROT N 
+ATOM     66  CA  GLY A   6      12.175  23.392   6.460  1.00 -0.15      PROT C 
+ATOM     67  C   GLY A   6      11.666  24.145   5.242  1.00  0.60      PROT C 
+ATOM     68  O   GLY A   6      10.501  24.018   4.878  1.00 -0.66      PROT O 
+ATOM     69  H   GLY A   6      10.919  21.702   6.650  1.00  0.36      PROT H 
+ATOM     70 1HA  GLY A   6      12.995  22.687   6.152  1.00  0.22      PROT H 
+ATOM     71 2HA  GLY A   6      12.632  24.086   7.207  1.00  0.19      PROT H 
+ATOM     72  N   PRO A   7      12.523  24.945   4.557  1.00 -0.46      PROT N 
+ATOM     73  CA  PRO A   7      12.072  25.739   3.410  1.00  0.02      PROT C 
+ATOM     74  C   PRO A   7      11.673  24.801   2.271  1.00  0.59      PROT C 
+ATOM     75  O   PRO A   7      12.034  23.633   2.208  1.00 -0.64      PROT O 
+ATOM     76  CB  PRO A   7      13.278  26.610   2.997  1.00 -0.28      PROT C 
+ATOM     77  CG  PRO A   7      14.497  26.024   3.730  1.00 -0.27      PROT C 
+ATOM     78  CD  PRO A   7      13.931  25.207   4.903  1.00 -0.06      PROT C 
+ATOM     79  HA  PRO A   7      11.189  26.369   3.712  1.00  0.18      PROT H 
+ATOM     80 1HB  PRO A   7      13.111  27.664   3.291  1.00  0.17      PROT H 
+ATOM     81 2HB  PRO A   7      13.443  26.616   1.907  1.00  0.15      PROT H 
+ATOM     82 1HG  PRO A   7      15.097  25.389   3.048  1.00  0.17      PROT H 
+ATOM     83 2HG  PRO A   7      15.179  26.818   4.080  1.00  0.16      PROT H 
+ATOM     84 1HD  PRO A   7      14.486  24.254   5.044  1.00  0.16      PROT H 
+ATOM     85 2HD  PRO A   7      13.983  25.780   5.856  1.00  0.15      PROT H 
+ATOM     86  N   PRO A   8      10.804  25.250   1.316  1.00 -0.48      PROT N 
+ATOM     87  CA  PRO A   8      10.494  24.381   0.173  1.00  0.02      PROT C 
+ATOM     88  C   PRO A   8      11.794  23.837  -0.434  1.00  0.60      PROT C 
+ATOM     89  O   PRO A   8      12.870  24.407  -0.259  1.00 -0.66      PROT O 
+ATOM     90  CB  PRO A   8       9.754  25.265  -0.848  1.00 -0.29      PROT C 
+ATOM     91  CG  PRO A   8       9.986  26.716  -0.399  1.00 -0.28      PROT C 
+ATOM     92  CD  PRO A   8      10.375  26.641   1.089  1.00 -0.07      PROT C 
+ATOM     93  HA  PRO A   8       9.853  23.530   0.527  1.00  0.18      PROT H 
+ATOM     94 1HB  PRO A   8       8.672  25.020  -0.853  1.00  0.18      PROT H 
+ATOM     95 2HB  PRO A   8      10.097  25.093  -1.884  1.00  0.17      PROT H 
+ATOM     96 1HG  PRO A   8      10.776  27.200  -0.999  1.00  0.15      PROT H 
+ATOM     97 2HG  PRO A   8       9.080  27.334  -0.544  1.00  0.17      PROT H 
+ATOM     98 1HD  PRO A   8      11.168  27.367   1.356  1.00  0.15      PROT H 
+ATOM     99 2HD  PRO A   8       9.497  26.853   1.751  1.00  0.18      PROT H 
+ATOM    100  N   GLY A   9      11.718  22.638  -1.091  1.00 -0.52      PROT N 
+ATOM    101  CA  GLY A   9      12.858  22.218  -1.909  1.00 -0.21      PROT C 
+ATOM    102  C   GLY A   9      13.182  23.235  -2.989  1.00  0.44      PROT C 
+ATOM    103  O   GLY A   9      12.502  24.236  -3.079  1.00 -0.58      PROT O 
+ATOM    104  H   GLY A   9      10.809  22.284  -1.397  1.00  0.35      PROT H 
+ATOM    105 1HA  GLY A   9      12.639  21.223  -2.378  1.00  0.21      PROT H 
+ATOM    106 2HA  GLY A   9      13.760  22.049  -1.262  1.00  0.20      PROT H 
+ATOM    107  HXT GLY A   9      14.015  23.031  -3.672  1.00  0.17      PROT H 
+ATOM    108  N   PRO B  31      13.254  19.516  18.632  1.00 -0.57      PROT N 
+ATOM    109  CA  PRO B  31      13.786  18.767  17.459  1.00 -0.02      PROT C 
+ATOM    110  C   PRO B  31      13.493  19.518  16.166  1.00  0.56      PROT C 
+ATOM    111  O   PRO B  31      12.720  20.470  16.144  1.00 -0.65      PROT O 
+ATOM    112  CB  PRO B  31      13.115  17.366  17.419  1.00 -0.29      PROT C 
+ATOM    113  CG  PRO B  31      12.112  17.356  18.581  1.00 -0.30      PROT C 
+ATOM    114  CD  PRO B  31      12.563  18.515  19.491  1.00 -0.11      PROT C 
+ATOM    115  H   PRO B  31      12.584  20.235  18.329  1.00  0.29      PROT H 
+ATOM    116  HA  PRO B  31      14.894  18.673  17.606  1.00  0.18      PROT H 
+ATOM    117 1HB  PRO B  31      13.876  16.574  17.541  1.00  0.16      PROT H 
+ATOM    118 2HB  PRO B  31      12.629  17.165  16.450  1.00  0.15      PROT H 
+ATOM    119 1HG  PRO B  31      11.078  17.519  18.231  1.00  0.15      PROT H 
+ATOM    120 2HG  PRO B  31      12.111  16.394  19.120  1.00  0.16      PROT H 
+ATOM    121 1HD  PRO B  31      11.716  18.983  20.029  1.00  0.14      PROT H 
+ATOM    122 2HD  PRO B  31      13.285  18.163  20.257  1.00  0.14      PROT H 
+ATOM    123  N   PRO B  32      13.990  19.046  14.981  1.00 -0.46      PROT N 
+ATOM    124  CA  PRO B  32      13.654  19.779  13.751  1.00 -0.01      PROT C 
+ATOM    125  C   PRO B  32      12.228  19.427  13.329  1.00  0.62      PROT C 
+ATOM    126  O   PRO B  32      11.660  18.390  13.681  1.00 -0.69      PROT O 
+ATOM    127  CB  PRO B  32      14.672  19.331  12.687  1.00 -0.29      PROT C 
+ATOM    128  CG  PRO B  32      15.846  18.744  13.487  1.00 -0.28      PROT C 
+ATOM    129  CD  PRO B  32      15.246  18.287  14.830  1.00 -0.07      PROT C 
+ATOM    130  HA  PRO B  32      13.740  20.892  13.934  1.00  0.21      PROT H 
+ATOM    131 1HB  PRO B  32      14.994  20.177  12.054  1.00  0.16      PROT H 
+ATOM    132 2HB  PRO B  32      14.240  18.578  12.000  1.00  0.17      PROT H 
+ATOM    133 1HG  PRO B  32      16.331  17.910  12.952  1.00  0.17      PROT H 
+ATOM    134 2HG  PRO B  32      16.638  19.498  13.641  1.00  0.15      PROT H 
+ATOM    135 1HD  PRO B  32      15.011  17.197  14.820  1.00  0.17      PROT H 
+ATOM    136 2HD  PRO B  32      15.941  18.470  15.676  1.00  0.16      PROT H 
+ATOM    137  N   GLY B  33      11.568  20.366  12.602  1.00 -0.49      PROT N 
+ATOM    138  CA  GLY B  33      10.312  20.039  11.946  1.00 -0.15      PROT C 
+ATOM    139  C   GLY B  33      10.549  19.074  10.790  1.00  0.60      PROT C 
+ATOM    140  O   GLY B  33      11.675  18.640  10.549  1.00 -0.68      PROT O 
+ATOM    141  H   GLY B  33      12.043  21.194  12.244  1.00  0.35      PROT H 
+ATOM    142 1HA  GLY B  33       9.839  20.989  11.569  1.00  0.22      PROT H 
+ATOM    143 2HA  GLY B  33       9.586  19.613  12.677  1.00  0.18      PROT H 
+ATOM    144  N   PRO B  34       9.503  18.789   9.976  1.00 -0.45      PROT N 
+ATOM    145  CA  PRO B  34       9.653  17.949   8.783  1.00  0.03      PROT C 
+ATOM    146  C   PRO B  34      10.301  18.770   7.658  1.00  0.59      PROT C 
+ATOM    147  O   PRO B  34      10.457  19.982   7.731  1.00 -0.64      PROT O 
+ATOM    148  CB  PRO B  34       8.222  17.537   8.382  1.00 -0.30      PROT C 
+ATOM    149  CG  PRO B  34       7.284  18.520   9.101  1.00 -0.27      PROT C 
+ATOM    150  CD  PRO B  34       8.089  19.079  10.285  1.00 -0.05      PROT C 
+ATOM    151  HA  PRO B  34      10.299  17.060   9.018  1.00  0.18      PROT H 
+ATOM    152 1HB  PRO B  34       8.017  16.494   8.690  1.00  0.17      PROT H 
+ATOM    153 2HB  PRO B  34       8.063  17.566   7.289  1.00  0.17      PROT H 
+ATOM    154 1HG  PRO B  34       6.965  19.328   8.418  1.00  0.15      PROT H 
+ATOM    155 2HG  PRO B  34       6.357  18.029   9.444  1.00  0.17      PROT H 
+ATOM    156 1HD  PRO B  34       7.932  20.170  10.409  1.00  0.15      PROT H 
+ATOM    157 2HD  PRO B  34       7.803  18.573  11.237  1.00  0.16      PROT H 
+ATOM    158  N   PRO B  35      10.818  18.095   6.588  1.00 -0.47      PROT N 
+ATOM    159  CA  PRO B  35      11.298  18.846   5.421  1.00  0.00      PROT C 
+ATOM    160  C   PRO B  35      10.222  19.809   4.906  1.00  0.59      PROT C 
+ATOM    161  O   PRO B  35       9.032  19.679   5.178  1.00 -0.66      PROT O 
+ATOM    162  CB  PRO B  35      11.621  17.801   4.333  1.00 -0.29      PROT C 
+ATOM    163  CG  PRO B  35      11.450  16.428   5.004  1.00 -0.27      PROT C 
+ATOM    164  CD  PRO B  35      10.585  16.679   6.255  1.00 -0.07      PROT C 
+ATOM    165  HA  PRO B  35      12.219  19.424   5.730  1.00  0.21      PROT H 
+ATOM    166 1HB  PRO B  35      12.645  17.938   3.940  1.00  0.16      PROT H 
+ATOM    167 2HB  PRO B  35      10.951  17.898   3.459  1.00  0.16      PROT H 
+ATOM    168 1HG  PRO B  35      10.977  15.698   4.325  1.00  0.16      PROT H 
+ATOM    169 2HG  PRO B  35      12.431  16.002   5.282  1.00  0.16      PROT H 
+ATOM    170 1HD  PRO B  35       9.510  16.487   6.045  1.00  0.15      PROT H 
+ATOM    171 2HD  PRO B  35      10.891  16.032   7.105  1.00  0.16      PROT H 
+ATOM    172  N   GLY B  36      10.681  20.847   4.154  1.00 -0.52      PROT N 
+ATOM    173  CA  GLY B  36       9.763  21.759   3.488  1.00 -0.20      PROT C 
+ATOM    174  C   GLY B  36       8.988  21.114   2.364  1.00  0.40      PROT C 
+ATOM    175  O   GLY B  36       9.280  20.012   1.948  1.00 -0.54      PROT O 
+ATOM    176  H   GLY B  36      11.658  20.921   3.880  1.00  0.35      PROT H 
+ATOM    177 1HA  GLY B  36      10.350  22.629   3.078  1.00  0.21      PROT H 
+ATOM    178 2HA  GLY B  36       9.074  22.233   4.236  1.00  0.19      PROT H 
+ATOM    179  HXT GLY B  36       8.171  21.693   1.912  1.00  0.15      PROT H 
+ATOM    180  N   PRO C  61      14.156  23.215  15.830  1.00 -0.56      PROT N 
+ATOM    181  CA  PRO C  61      14.374  24.077  14.640  1.00 -0.02      PROT C 
+ATOM    182  C   PRO C  61      13.407  23.719  13.521  1.00  0.58      PROT C 
+ATOM    183  O   PRO C  61      12.834  22.631  13.488  1.00 -0.66      PROT O 
+ATOM    184  CB  PRO C  61      15.816  23.855  14.120  1.00 -0.31      PROT C 
+ATOM    185  CG  PRO C  61      16.358  22.658  14.914  1.00 -0.29      PROT C 
+ATOM    186  CD  PRO C  61      15.457  22.572  16.160  1.00 -0.10      PROT C 
+ATOM    187  H   PRO C  61      13.442  22.500  15.640  1.00  0.30      PROT H 
+ATOM    188  HA  PRO C  61      14.221  25.138  14.970  1.00  0.18      PROT H 
+ATOM    189 1HB  PRO C  61      16.430  24.759  14.285  1.00  0.16      PROT H 
+ATOM    190 2HB  PRO C  61      15.843  23.665  13.033  1.00  0.15      PROT H 
+ATOM    191 1HG  PRO C  61      17.420  22.788  15.183  1.00  0.16      PROT H 
+ATOM    192 2HG  PRO C  61      16.310  21.730  14.317  1.00  0.15      PROT H 
+ATOM    193 1HD  PRO C  61      15.310  21.530  16.499  1.00  0.14      PROT H 
+ATOM    194 2HD  PRO C  61      15.903  23.133  17.009  1.00  0.15      PROT H 
+ATOM    195  N   PRO C  62      13.107  24.629  12.551  1.00 -0.47      PROT N 
+ATOM    196  CA  PRO C  62      12.446  24.164  11.323  1.00  0.00      PROT C 
+ATOM    197  C   PRO C  62      13.190  22.939  10.778  1.00  0.61      PROT C 
+ATOM    198  O   PRO C  62      14.362  22.722  11.081  1.00 -0.69      PROT O 
+ATOM    199  CB  PRO C  62      12.499  25.342  10.334  1.00 -0.30      PROT C 
+ATOM    200  CG  PRO C  62      12.908  26.558  11.183  1.00 -0.28      PROT C 
+ATOM    201  CD  PRO C  62      13.689  25.971  12.376  1.00 -0.06      PROT C 
+ATOM    202  HA  PRO C  62      11.381  23.889  11.580  1.00  0.21      PROT H 
+ATOM    203 1HB  PRO C  62      11.520  25.490   9.844  1.00  0.17      PROT H 
+ATOM    204 2HB  PRO C  62      13.227  25.163   9.523  1.00  0.16      PROT H 
+ATOM    205 1HG  PRO C  62      13.513  27.282  10.611  1.00  0.17      PROT H 
+ATOM    206 2HG  PRO C  62      12.023  27.117  11.535  1.00  0.15      PROT H 
+ATOM    207 1HD  PRO C  62      14.779  25.920  12.164  1.00  0.15      PROT H 
+ATOM    208 2HD  PRO C  62      13.550  26.572  13.302  1.00  0.17      PROT H 
+ATOM    209  N   GLY C  63      12.454  22.033  10.080  1.00 -0.50      PROT N 
+ATOM    210  CA  GLY C  63      13.080  20.879   9.446  1.00 -0.14      PROT C 
+ATOM    211  C   GLY C  63      13.945  21.278   8.262  1.00  0.61      PROT C 
+ATOM    212  O   GLY C  63      14.219  22.452   8.032  1.00 -0.69      PROT O 
+ATOM    213  H   GLY C  63      11.524  22.278   9.739  1.00  0.35      PROT H 
+ATOM    214 1HA  GLY C  63      12.264  20.179   9.104  1.00  0.22      PROT H 
+ATOM    215 2HA  GLY C  63      13.697  20.310  10.188  1.00  0.19      PROT H 
+ATOM    216  N   PRO C  64      14.376  20.297   7.425  1.00 -0.45      PROT N 
+ATOM    217  CA  PRO C  64      15.329  20.573   6.345  1.00  0.02      PROT C 
+ATOM    218  C   PRO C  64      14.574  21.085   5.119  1.00  0.58      PROT C 
+ATOM    219  O   PRO C  64      13.374  20.913   4.944  1.00 -0.64      PROT O 
+ATOM    220  CB  PRO C  64      15.973  19.212   6.006  1.00 -0.28      PROT C 
+ATOM    221  CG  PRO C  64      14.988  18.156   6.534  1.00 -0.28      PROT C 
+ATOM    222  CD  PRO C  64      14.213  18.850   7.668  1.00 -0.07      PROT C 
+ATOM    223  HA  PRO C  64      16.087  21.332   6.680  1.00  0.19      PROT H 
+ATOM    224 1HB  PRO C  64      16.961  19.118   6.498  1.00  0.17      PROT H 
+ATOM    225 2HB  PRO C  64      16.160  19.090   4.926  1.00  0.15      PROT H 
+ATOM    226 1HG  PRO C  64      14.302  17.822   5.734  1.00  0.16      PROT H 
+ATOM    227 2HG  PRO C  64      15.509  17.251   6.889  1.00  0.17      PROT H 
+ATOM    228 1HD  PRO C  64      13.134  18.583   7.656  1.00  0.16      PROT H 
+ATOM    229 2HD  PRO C  64      14.621  18.578   8.667  1.00  0.16      PROT H 
+ATOM    230  N   PRO C  65      15.235  21.860   4.205  1.00 -0.48      PROT N 
+ATOM    231  CA  PRO C  65      14.554  22.149   2.933  1.00 -0.00      PROT C 
+ATOM    232  C   PRO C  65      13.922  20.869   2.378  1.00  0.61      PROT C 
+ATOM    233  O   PRO C  65      14.428  19.762   2.585  1.00 -0.69      PROT O 
+ATOM    234  CB  PRO C  65      15.633  22.662   1.963  1.00 -0.28      PROT C 
+ATOM    235  CG  PRO C  65      16.894  22.883   2.819  1.00 -0.26      PROT C 
+ATOM    236  CD  PRO C  65      16.692  22.059   4.105  1.00 -0.07      PROT C 
+ATOM    237  HA  PRO C  65      13.763  22.932   3.127  1.00  0.21      PROT H 
+ATOM    238 1HB  PRO C  65      15.305  23.597   1.471  1.00  0.17      PROT H 
+ATOM    239 2HB  PRO C  65      15.831  21.944   1.147  1.00  0.16      PROT H 
+ATOM    240 1HG  PRO C  65      17.805  22.573   2.278  1.00  0.16      PROT H 
+ATOM    241 2HG  PRO C  65      17.022  23.956   3.059  1.00  0.16      PROT H 
+ATOM    242 1HD  PRO C  65      17.234  21.090   4.057  1.00  0.16      PROT H 
+ATOM    243 2HD  PRO C  65      17.055  22.604   5.004  1.00  0.16      PROT H 
+ATOM    244  N   GLY C  66      12.756  21.002   1.686  1.00 -0.52      PROT N 
+ATOM    245  CA  GLY C  66      12.221  19.872   0.930  1.00 -0.19      PROT C 
+ATOM    246  C   GLY C  66      13.223  19.356  -0.085  1.00  0.44      PROT C 
+ATOM    247  O   GLY C  66      14.270  19.951  -0.238  1.00 -0.59      PROT O 
+ATOM    248  H   GLY C  66      12.422  21.928   1.422  1.00  0.35      PROT H 
+ATOM    249 1HA  GLY C  66      11.270  20.170   0.422  1.00  0.20      PROT H 
+ATOM    250 2HA  GLY C  66      11.929  19.041   1.627  1.00  0.20      PROT H 
+ATOM    251  HXT GLY C  66      12.965  18.471  -0.681  1.00  0.16      PROT H 
+HETATM  252  O   HOH   101       6.145  20.389  15.629  1.00 -0.78      PROT O 
+HETATM  253 1H   HOH   101       6.572  19.742  15.031  1.00  0.37      PROT H 
+HETATM  254 2H   HOH   101       6.912  20.825  16.048  1.00  0.38      PROT H 
+HETATM  255  O   HOH   102       7.499  24.176  16.270  1.00 -0.76      PROT O 
+HETATM  256 1H   HOH   102       7.133  24.151  15.388  1.00  0.35      PROT H 
+HETATM  257 2H   HOH   102       7.825  23.270  16.425  1.00  0.38      PROT H 
+HETATM  258  O   HOH   103       5.825  21.810  13.384  1.00 -0.79      PROT O 
+HETATM  259 1H   HOH   103       6.788  21.934  13.304  1.00  0.38      PROT H 
+HETATM  260 2H   HOH   103       5.726  21.402  14.277  1.00  0.40      PROT H 
+HETATM  261  O   HOH   104       8.433  26.331   8.153  1.00 -0.77      PROT O 
+HETATM  262 1H   HOH   104       8.901  25.484   8.282  1.00  0.38      PROT H 
+HETATM  263 2H   HOH   104       8.669  26.575   7.236  1.00  0.38      PROT H 
+HETATM  264  O   HOH   105      11.751  26.517   7.373  1.00 -0.77      PROT O 
+HETATM  265 1H   HOH   105      11.357  27.145   8.022  1.00  0.38      PROT H 
+HETATM  266 2H   HOH   105      11.364  25.652   7.640  1.00  0.38      PROT H 
+HETATM  267  O   HOH   106       8.644  25.567   3.809  1.00 -0.76      PROT O 
+HETATM  268 1H   HOH   106       9.405  24.964   3.921  1.00  0.37      PROT H 
+HETATM  269 2H   HOH   106       8.785  26.157   4.572  1.00  0.38      PROT H 
+HETATM  270  O   HOH   107      13.247  27.025  -0.672  1.00 -0.77      PROT O 
+HETATM  271 1H   HOH   107      12.972  26.130  -0.394  1.00  0.40      PROT H 
+HETATM  272 2H   HOH   107      12.858  27.668  -0.072  1.00  0.39      PROT H 
+HETATM  273  O   HOH   108      15.142  24.147  -1.649  1.00 -0.78      PROT O 
+HETATM  274 1H   HOH   108      15.422  25.089  -1.622  1.00  0.38      PROT H 
+HETATM  275 2H   HOH   108      14.356  24.132  -1.068  1.00  0.38      PROT H 
+HETATM  276  O   HOH   109      12.957  26.871  -3.334  1.00 -0.77      PROT O 
+HETATM  277 1H   HOH   109      12.804  25.917  -3.358  1.00  0.38      PROT H 
+HETATM  278 2H   HOH   109      13.058  27.048  -2.384  1.00  0.38      PROT H 
+HETATM  279  O   HOH   111      12.794  15.987  13.372  1.00 -0.78      PROT O 
+HETATM  280 1H   HOH   111      12.741  16.032  12.382  1.00  0.39      PROT H 
+HETATM  281 2H   HOH   111      12.579  16.908  13.639  1.00  0.39      PROT H 
+HETATM  282  O   HOH   112       9.327  17.229  13.036  1.00 -0.79      PROT O 
+HETATM  283 1H   HOH   112      10.173  17.679  13.203  1.00  0.38      PROT H 
+HETATM  284 2H   HOH   112       8.636  17.827  13.353  1.00  0.38      PROT H 
+HETATM  285  O   HOH   113      12.787  16.207  10.709  1.00 -0.78      PROT O 
+HETATM  286 1H   HOH   113      13.720  16.481  10.627  1.00  0.38      PROT H 
+HETATM  287 2H   HOH   113      12.280  17.026  10.560  1.00  0.39      PROT H 
+HETATM  288  O   HOH   115       6.971  20.940   4.014  1.00 -0.81      PROT O 
+HETATM  289 1H   HOH   115       7.704  20.515   4.490  1.00  0.39      PROT H 
+HETATM  290 2H   HOH   115       7.014  21.880   4.213  1.00  0.38      PROT H 
+HETATM  291  O   HOH   116       7.817  18.764   0.078  1.00 -0.78      PROT O 
+HETATM  292 1H   HOH   116       8.480  18.215  -0.351  1.00  0.37      PROT H 
+HETATM  293 2H   HOH   116       8.315  19.242   0.761  1.00  0.38      PROT H 
+HETATM  294  O   HOH   121      16.273  24.368  10.150  1.00 -0.79      PROT O 
+HETATM  295 1H   HOH   121      16.178  25.330  10.312  1.00  0.39      PROT H 
+HETATM  296 2H   HOH   121      15.484  23.943  10.506  1.00  0.38      PROT H 
+HETATM  297  O   HOH   122      16.811  21.688  10.765  1.00 -0.74      PROT O 
+HETATM  298 1H   HOH   122      15.894  21.974  10.942  1.00  0.39      PROT H 
+HETATM  299 2H   HOH   122      17.096  22.298  10.062  1.00  0.38      PROT H 
+HETATM  300  O   HOH   123      15.715  24.614   7.540  1.00 -0.77      PROT O 
+HETATM  301 1H   HOH   123      15.164  23.821   7.466  1.00  0.38      PROT H 
+HETATM  302 2H   HOH   123      16.049  24.525   8.461  1.00  0.38      PROT H 
+HETATM  303  O   HOH   124      17.077  19.409   2.442  1.00 -0.75      PROT O 
+HETATM  304 1H   HOH   124      16.135  19.638   2.583  1.00  0.39      PROT H 
+HETATM  305 2H   HOH   124      17.205  18.549   2.857  1.00  0.37      PROT H 
+HETATM  306  O   HOH   125      13.760  17.424   1.458  1.00 -0.80      PROT O 
+HETATM  307 1H   HOH   125      14.579  17.125   1.045  1.00  0.37      PROT H 
+HETATM  308 2H   HOH   125      13.978  18.219   1.965  1.00  0.38      PROT H 
+HETATM  309  O   HOH   126      16.819  19.118  -0.201  1.00 -0.77      PROT O 
+HETATM  310 1H   HOH   126      16.984  19.254   0.769  1.00  0.39      PROT H 
+HETATM  311 2H   HOH   126      15.918  19.467  -0.330  1.00  0.38      PROT H 
+HETATM  312  O   HOH   201       6.949  23.596   4.450  1.00 -0.77      PROT O 
+HETATM  313 1H   HOH   201       7.591  24.286   4.165  1.00  0.39      PROT H 
+HETATM  314 2H   HOH   201       6.705  23.861   5.341  1.00  0.36      PROT H 
+HETATM  315  O   HOH   202      15.866  26.671  -1.118  1.00 -0.78      PROT O 
+HETATM  316 1H   HOH   202      14.940  26.891  -0.924  1.00  0.38      PROT H 
+HETATM  317 2H   HOH   202      16.237  26.411  -0.245  1.00  0.39      PROT H 
+HETATM  318  O   HOH   203       4.554  23.523  11.757  1.00 -0.76      PROT O 
+HETATM  319 1H   HOH   203       4.977  22.925  12.383  1.00  0.37      PROT H 
+HETATM  320 2H   HOH   203       4.472  24.357  12.226  1.00  0.37      PROT H 
+HETATM  321  O   HOH   204      10.941  28.289  -4.380  1.00 -0.78      PROT O 
+HETATM  322 1H   HOH   204      11.653  27.766  -3.966  1.00  0.38      PROT H 
+HETATM  323 2H   HOH   204      10.133  27.886  -4.055  1.00  0.37      PROT H 
+HETATM  324  O   HOH   205      14.341  26.864   7.997  1.00 -0.80      PROT O 
+HETATM  325 1H   HOH   205      13.404  26.746   7.788  1.00  0.38      PROT H 
+HETATM  326 2H   HOH   205      14.785  26.025   7.756  1.00  0.38      PROT H 
+HETATM  327  O   HOH   206      10.315  27.977   9.101  1.00 -0.76      PROT O 
+HETATM  328 1H   HOH   206       9.558  27.399   8.837  1.00  0.38      PROT H 
+HETATM  329 2H   HOH   206      10.395  27.882  10.052  1.00  0.36      PROT H 
+HETATM  330  O   HOH   208      15.980  16.602   0.192  1.00 -0.76      PROT O 
+HETATM  331 1H   HOH   208      15.660  16.268  -0.657  1.00  0.38      PROT H 
+HETATM  332 2H   HOH   208      16.355  17.479  -0.008  1.00  0.38      PROT H 
+HETATM  333  O   HOH   209      17.371  23.478  -0.334  1.00 -0.74      PROT O 
+HETATM  334 1H   HOH   209      18.018  23.955  -0.881  1.00  0.38      PROT H 
+HETATM  335 2H   HOH   209      16.513  23.613  -0.810  1.00  0.39      PROT H 
+HETATM  336  O   HOH   210      15.815  27.003  10.236  1.00 -0.76      PROT O 
+HETATM  337 1H   HOH   210      16.597  27.462   9.904  1.00  0.38      PROT H 
+HETATM  338 2H   HOH   210      15.191  27.003   9.483  1.00  0.38      PROT H 
+HETATM  339  O   HOH   212      15.387  16.862  10.710  1.00 -0.77      PROT O 
+HETATM  340 1H   HOH   212      15.832  16.299  10.061  1.00  0.39      PROT H 
+HETATM  341 2H   HOH   212      15.713  17.766  10.509  1.00  0.40      PROT H 
+HETATM  342  O   HOH   213      16.347  19.211   9.857  1.00 -0.77      PROT O 
+HETATM  343 1H   HOH   213      17.087  19.037   9.267  1.00  0.38      PROT H 
+HETATM  344 2H   HOH   213      16.545  20.074  10.259  1.00  0.39      PROT H 
+HETATM  345  O   HOH   215       7.580  19.148  13.734  1.00 -0.77      PROT O 
+HETATM  346 1H   HOH   215       8.086  19.976  13.678  1.00  0.37      PROT H 
+HETATM  347 2H   HOH   215       6.899  19.220  13.009  1.00  0.39      PROT H 
+HETATM  348  O   HOH   217       5.795  19.633  11.827  1.00 -0.74      PROT O 
+HETATM  349 1H   HOH   217       5.662  20.507  12.244  1.00  0.37      PROT H 
+HETATM  350 2H   HOH   217       4.960  19.164  11.954  1.00  0.38      PROT H 
+HETATM  351  O   HOH   218      15.418  15.533  13.045  1.00 -0.80      PROT O 
+HETATM  352 1H   HOH   218      15.536  16.052  12.237  1.00  0.38      PROT H 
+HETATM  353 2H   HOH   218      14.490  15.693  13.275  1.00  0.37      PROT H 
+HETATM  354  O   HOH   219      18.384  21.109  -1.089  1.00 -0.81      PROT O 
+HETATM  355 1H   HOH   219      17.976  21.928  -0.773  1.00  0.38      PROT H 
+HETATM  356 2H   HOH   219      17.811  20.403  -0.766  1.00  0.37      PROT H 
+HETATM  357  O   HOH   220      10.401  14.994  14.049  1.00 -0.79      PROT O 
+HETATM  358 1H   HOH   220      11.307  15.286  13.812  1.00  0.38      PROT H 
+HETATM  359 2H   HOH   220       9.862  15.754  13.750  1.00  0.38      PROT H 
+HETATM  360  O   HOH   241      16.749  25.610   1.175  1.00 -0.75      PROT O 
+HETATM  361 1H   HOH   241      17.022  24.766   0.770  1.00  0.38      PROT H 
+HETATM  362 2H   HOH   241      17.550  25.979   1.562  1.00  0.38      PROT H 
+HETATM  363  O   HOH   242      18.522  22.363  12.716  1.00 -0.77      PROT O 
+HETATM  364 1H   HOH   242      17.879  22.099  12.038  1.00  0.38      PROT H 
+HETATM  365 2H   HOH   242      18.237  23.244  12.969  1.00  0.36      PROT H 
+HETATM  366  O   HOH   243      10.364  14.809  16.717  1.00 -0.76      PROT O 
+HETATM  367 1H   HOH   243      10.374  14.902  15.741  1.00  0.38      PROT H 
+HETATM  368 2H   HOH   243      10.516  15.693  17.045  1.00  0.34      PROT H 
+HETATM  369  O   HOH   244       9.601  27.032   5.845  1.00 -0.77      PROT O 
+HETATM  370 1H   HOH   244      10.480  26.803   6.205  1.00  0.39      PROT H 
+HETATM  371 2H   HOH   244       9.632  27.977   5.646  1.00  0.39      PROT H 
+END

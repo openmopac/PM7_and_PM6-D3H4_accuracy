@@ -1,0 +1,5 @@
+reset;center {-17.28666666666667 19.056712121212122 -14.314787878787884}; rotate z -155.78; rotate y 99.22; rotate z 127.01; zoom 1166.68; set rotationRadius 54.93;
+display 186, 192
+select 192:A.CD/2.1; label Gln-192; color label black; set labelOffset -20 50; font label 20
+select 186:A.O/2.1; label Val-186; color label black; set labelOffset 2 70; font label 20
+select none

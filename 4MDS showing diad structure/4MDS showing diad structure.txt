@@ -1,0 +1,9 @@
+display 40, 41, 145, 187, 502
+reset;center {-14.526814814814816 9.54318518518519 -17.94457407407407}; rotate z -173.49; rotate y 78.17; rotate z 157.84; zoom 1030.8; translate x 3.27; translate y -0.7; set rotationRadius 57.08;
+select 502:A.O; label H2O-502; color label black; font label 20; set labeloffset 20 20
+select 41:A.CG; label HIS-41; color label black; font label 20; set labeloffset 40 10
+select 145:A.SG; label CYS-145; color label black; font label 20; set labeloffset -5 40
+select 187:A.CG; label ASP-187; color label black; font label 20; set labeloffset -40 -10
+select 85:A.O; label CYS-85; color label black; font label 20; set labeloffset 1 30
+select 40:A.CZ; label ARG-40; color label black; font label 20; set labeloffset 30 10
+select off

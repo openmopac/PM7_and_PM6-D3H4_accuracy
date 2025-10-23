@@ -1,0 +1,5 @@
+if (!LCOM);
+select visible;  LCOM = TRUE; 
+else select none;  LCOM = FALSE; 
+end if; 
+

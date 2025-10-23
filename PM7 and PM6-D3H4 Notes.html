@@ -1,0 +1,146 @@
+<html><head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Notes on the Accuracy of PM7 and PM6-D3H4</title>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<h1 align="CENTER" dir="ltr"> Notes on the Accuracy of PM7 and PM6-D3H4</h1>
+<p align="center" dir="ltr"> <a href="Survey_of_Solids.html"> (All solids</a> - <a href="Periodic_table_solids.html">Periodic Table</a>
+ - <a href="../index.html">Home</a> -
+<a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> - <a href="../Manual/index.html">Manual</a>)
+</p>
+<h2 align="left" dir="ltr">Preface</h2>
+<p align="left" dir="ltr">A frequently asked question is, "Which method in MOPAC is the most accurate?"&nbsp; 
+Although apparently a simple question, there is no simple answer other than that 
+ PM7 and PM6-D3H4 are the two most accurate methods in MOPAC.&nbsp; These 
+ methods should be used for all routine use. There are several other methods, 
+ but they should only be used when necessary.&nbsp; The data in the
+ <a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> 
+ web-page provides an unbroken chain of logic from raw experimental data to a 
+ summary of a statistical analysis of the errors in various properties, and 
+ provides enough information to allow users of MOPAC to 
+ decide which method to use. </p>
+<p align="left" dir="ltr">The methods in MOPAC were designed to provide 
+ practical chemists with a tool for modeling chemical systems.&nbsp; To this 
+ end, the focus has been on main-stream chemistry - think sulfuric acid - and on 
+ systems with common but interesting structures, for example hydrogen bonds in 
+ enzymes.&nbsp; Modeling methods are of little practical use unless they can be 
+ used without much effort, i.e., in a reasonable time on readily available 
+ hardware.&nbsp; These objectives can be contrasted with the philosophy behind 
+ many high-level methods, where the objective is to generate accurate data on 
+ small systems, or to model exotic systems or exotic phenomena.&nbsp; Such 
+ methods are often very time consuming.&nbsp; This is not an attempt to 
+ disparage such methods: if semiempirical methods are to be improved, they will 
+ have to depend on reference data generated using high level methods.&nbsp;</p>
+<h2 align="left" dir="ltr">Purpose of these tables</h2>
+<h3 align="left" dir="ltr">1 Research</h3>
+<p align="left" dir="ltr">Before starting any research that uses the methods in 
+ MOPAC, an estimate should be made of how accurately the two most important 
+ methods, PM7 and PM6-D3H4, predict properties of interest. This section of the 
+ manual contains a large number of tables and summaries that provide information 
+ that should be useful in making that estimate.&nbsp; </p>
+<h3 align="left" dir="ltr">2 Teaching</h3>
+<p align="left" dir="ltr">Information on a large number of chemical systems - 
+ atoms, molecules, biomolecular systems, and solids is presented, both as 
+ graphics and as text. Examples of data-sets for different types of calculation 
+ are given in the form of .arc files; these can be run directly using MOPAC, 
+ although it would normally be preferable to re-name them as .mop files to avoid 
+ over-writing the .arc file. </p>
+<h3 align="left" dir="ltr">3. Development</h3>
+<p align="left" dir="ltr">Method developers can use the tables to identify 
+ strengths and weaknesses in semiempirical methods, and the automated tools for 
+ generating these tables can be used in determining the accuracy of a new 
+ method.&nbsp; Provided the raw data are selected in an unbiased manner, and given that the automated tools do not introduce any bias, the 
+ resulting tables and statistics can be regarded as unbiased.</p>
+<h2 align="left" dir="ltr">Summary of PM7</h2>
+<p align="left" dir="ltr"><u><b>Advantages:</b></u> The best method for general 
+ chemistry, and for solids. Optimized to reproduce the Standard Heat of 
+ Formation, &Delta;H<sub>f</sub>.</p>
+<p align="left" dir="ltr"><u><b>Disadvantages:</b></u> Less accurate than 
+ PM6-D3H4 for geometries in organic chemistry. See
+ <a href="data_solids/Urea__UREAXX13__jmol.html">crystal urea</a>.</p>
+<p align="left"><u><b>Faults: </b></u>There is a fault in the 
+ hydrogen-bond calculation that can cause a severe error in vibrational 
+ frequencies. This fault 
+  
+ occurs when there is a hydrogen atom attached to an acceptor atom and the 
+ angle between that hydrogen atom, the acceptor atom, and the hydrogen atom 
+ involved in the hydrogen bond are near to 180<font face="Times New Roman">&deg;.</font> 
+ Although the fault originated in the calculation of the hydrogen-bond energy, 
+ it only becomes significant when the derivative of the hydrogen-bond energy 
+ with respect to geometry is calculated.&nbsp; An example of such a situation is shown in the figure nearby.&nbsp; In this 
+ figure, the angle H<sub>6</sub> makes with O<sub>4</sub> and H<sub>3</sub> is 179.8<font face="Times New Roman">&deg;, 
+ and the lowest-energy vibrational mode is <i>i</i>14533.1.&nbsp; This is 
+ printed as -14533.1 cm<sup>-1</sup>, a completely nonsensical value.</font></p>
+<table border="1" cellspacing="1" width="1458">
+<tr>
+<td width="643">
+<p align="center"><b>Data-set that shows the fault in calculated 
+     vibrational frequencies</b></p></td>
+<td width="807">
+<p align="center"><b>Orientation of two water molecules showing the almost 
+     collinear atoms</b></p></td>
+</tr>
+<tr>
+<td width="643"><font face="Lucida Console">&nbsp;&nbsp; force let<br/>
+&nbsp;&nbsp; FORCE calculation on a water dimer<br/>
+<br/>
+&nbsp;&nbsp; O&nbsp;&nbsp; 0.00000000 +1&nbsp;&nbsp; 0.0000000 +1&nbsp;&nbsp;&nbsp; 
+     0.0000000 +1<br/>
+&nbsp;&nbsp; H&nbsp;&nbsp; 0.97355715 +1&nbsp;&nbsp; 0.0000000 +1&nbsp;&nbsp;&nbsp; 
+     0.0000000 +1 1 0 0<br/>
+&nbsp;&nbsp; H&nbsp;&nbsp; 1.02564937 +1 106.0267800 +1&nbsp;&nbsp;&nbsp; 
+     0.0000000 +1 1 2 0<br/>
+&nbsp;&nbsp; O&nbsp;&nbsp; 4.60167391 +1 155.5013383 +1&nbsp;&nbsp; 98.8837966 
+     +1 3 1 2<br/>
+&nbsp;&nbsp; H&nbsp;&nbsp; 0.97322361 +1&nbsp; 78.1005920 +1 -160.7983157 +1 4 3 
+     1<br/>
+&nbsp;&nbsp; H&nbsp;&nbsp; 0.99799606 +1 179.8194280 +1&nbsp; -37.8616995 +1 4 3 
+     1<br/>
+&nbsp;</font></td>
+<td width="807">
+<img align="right" border="1" height="217" src="PM7%20an1.gif" width="798"/></td>
+</tr>
+</table>
+<p align="left" dir="ltr">It should be emphasized that this fault only occurs 
+ very infrequently, because the specific condition for its appearance, the three 
+ atoms being almost collinear, does not occur in most hydrogen bonding 
+ environments, but in the rare case that it does occur the results will be 
+ nonsense. </p>
+<p align="left" dir="ltr">Because PM7 has been used for many years, this fault 
+ has not been corrected, instead it is documented here as information for users 
+ and developers.</p>
+<h2 align="left" dir="ltr">Summary of PM6-D3H4</h2>
+<p align="left" dir="ltr"><u><b>Advantages: </b></u>Very good for biochemistry 
+ and organic and organometallic chemistry. Very good for non-covalent 
+ interactions.&nbsp;&nbsp; Errors in intermolecular interactions are much 
+ smaller than in PM7</p>
+<p align="left" dir="ltr"><u><b>Disadvantages:</b></u>&nbsp; Often there are 
+ severe errors in inorganic solids. Errors in &Delta;H<sub>f</sub> are
+ <a href="Stats_for_Heats_of_Formation.html">much larger</a> than in PM7. This 
+ is a consequence of the fact that the D3H4 modification was added on to the PM6 
+ method. PM6 was optimized to reproduce &Delta;H<sub>f</sub>, and the addition 
+ of D3H4 resulted in extra stabilization.&nbsp; </p>
+<h2 align="left" dir="ltr">When to use PM7 and when to use PM6-D3H4</h2>
+<p align="left" dir="ltr">For all organic chemistry, use PM6-D3H4.</p>
+<p align="left" dir="ltr">For inorganic solids, use PM7.</p>
+<p align="left" dir="ltr">For more information, consult the statistics in the
+ <a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> 
+ web-page. </p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">&nbsp;</p>
+</body></html>

@@ -1,0 +1,190 @@
+<html><head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Notes on Proteins</title>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<h1 align="CENTER" dir="ltr">Notes on Proteins</h1>
+<p align="center" dir="ltr"> <a href="Survey_of_Solids.html"> (All solids</a> - <a href="Periodic_table_solids.html">Periodic Table</a>
+ - <a href="../index.html">Home</a> - <a href="../Manual/index.html">Manual</a> -
+<a href="PM7_Proteins.html">PM7 Proteins</a> 
+- <a href="PM6-D3H4_Proteins.html">PM6-D3H4 Proteins</a>)
+</p>
+<h2 align="left">  Known faults in PM6-D3H4</h2>
+<p align="left">  These faults are caused by an incorrect parameterization of 
+sulfur in PM6, they are not caused by anything in D3H4.</p>
+<h3 align="left">  Severe faults</h3>
+<p align="left">  Two severe faults were found during a survey of unconstrained 
+optimization of proteins.&nbsp; These faults were:</p>
+<h4 align="left">  (1) Spurious S - O covalent bond</h4>
+<p align="left">  To see this fault open
+<a href="PM6-D3H4_PM6-D3H4/Cobalamin%20(2V3N).html">Cobalamin (2V3N)</a>, and 
+display Cys-98 and HOH-2031. In this system, a spurious bond was formed between 
+[CYS]98:A.SG and [HOH]2031:J.O.</p>
+<h4 align="left">  (2) Spurious S - N covalent bond</h4>
+<p align="left">  &nbsp;To see this fault open
+<a href="PM6-D3H4_PM6-D3H4/Zinc%20endoprotease%20(1C7K).html">Zinc endoprotease (1C7K)</a> 
+, and display Arg-79 and Cys-112.&nbsp; In this system, a spurious bond was 
+formed between [CYS]112:A.SG and [ARG]79:A.NE</p>
+<p align="left">  These faults were found in only two of the proteins surveyed, 
+so it's unlikely that the fault will occur in any specific protein.&nbsp; The 
+faults are quite definite in that a normal covalent single bond is formed 
+between a sulfur atom and either an oxygen or nitrogen atom.&nbsp; If a fault of 
+this kind does occur, and if it is far from the site of interest, most likely 
+the fault will not interfere with the work being done.&nbsp; But if the fault is 
+near to the site of interest, or if there is any other reason that the fault 
+should be removed, here is a simple procedure to do that.</p>
+<h4 align="left">  Correcting faults of this type</h4>
+<p align="left">  Start with a normal MOPAC data-set for the protein, this 
+should be the geometry of the original file, not the PM6-D3H4 geometry.&nbsp; A 
+useful first step would be to optimize the positions of the hydrogen atoms, if that 
+has not already been done. </p>
+<p align="left">  Using a GUI - Jmol is particularly good for this step, see 
+<a href="../Manual/html.html"><tt>HTML</tt></a> - identify the sulfur atom that is causing the problem, and the oxygen or 
+nitrogen atom involved in forming the S-O or S-N bond.&nbsp; In the case of zinc 
+endoprotease, these two atoms would be "[CYS]112:A.SG" and "[ARG]79:A.NE" (in Jmol 
+format) or "NE ARG A 79" and "SG CYS A 112" (in PDB format.)</p>
+<p align="left">  The next task is to edit the MOPAC data-set to re-define one of the atoms in internal 
+coordinates, this needs to be the atom with the higher atom number.&nbsp; Once 
+that atom is identified, set up internal coordinates using the "distance" as that to 
+the other atom, then the "angle" and "dihedral" in the normal manner.  In the case of zinc endoprotease, the atom with the higher 
+atom number would be the sulfur, atom number 1619.&nbsp; This would be at a 
+distance of 3.65 &Aring;ngstroms from the nitrogen, see <a href="PM6-D3H4_pdb/Zinc-bundle%20(1EF4).html" target="_blank">Jmol</a> and <a href="PM6-D3H4_pdb/Zinc-bundle%20(1EF4).arc">ARC</a>, and make an angle of 69.9<font face="Times New Roman">&deg; 
+with CZ on Arg-79, and a dihedral of -76.8 with CD on Arg-79. Once the atom is 
+defined in internal coordinates, the interatomic distance can be fixed by 
+setting its optimization flag to zero.&nbsp; When all of this is done, the 
+Cartesian coordinates of the sulfur atom in the data-set:</font></p>
+ S(ATOM   1619  SG  CYS A 112)  24.11700000 +1  22.36800000 +1   8.96800000 +1
+<p align="left"> <font face="Times New Roman">can be replaced with internal 
+coordinates:</font></p>
+<p align="left">  S(ATOM 1619 SG CYS A 112) 3.650 0 69.9 1 -76.8 1 
+"[ARG]79:A.NE" "[ARG]79:A.CZ" "[ARG]79:A.CD"</p>
+<p align="left">  Note that the "bond length" or distance has an optimization 
+flag of "0," and that Jmol labels are used instead of the atom-numbers.&nbsp; 
+Labels in text format are much easier to use because they track the atom name, 
+which is fixed, not the atom number, which can change if atoms are added or 
+deleted.</p>
+<p align="left">  Then optimize the geometry.&nbsp; Do NOT use 
+<a href="../Manual/optx.html"><tt>OPT</tt></a> in the 
+optimization, as that would replace the "bond length" optimization flag with a 
+"1." Instead do a <a href="../Manual/zero_scf.html"><tt>0SCF</tt></a> with <tt>OPT</tt>, then edit the geometry to remove <tt>OPT </tt>and freeze the bond-length 
+once more,</p>
+<p align="left">  Files that show the error:
+ <a href="Zinc%20endoprotease,%20without%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20All%20Opt%20PM6-D3H4%20PM6-D3H4.html" target="_blank">
+ Zinc endoprotease (1C7K).html</a>,
+ <a href="Zinc%20endoprotease,%20without%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20All%20Opt%20PM6-D3H4%20PM6-D3H4.arc">Zinc endoprotease (1C7K).arc</a>, 
+and 
+ <a href="Zinc%20endoprotease,%20without%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20All%20Opt%20PM6-D3H4%20PM6-D3H4.pdb">
+ Zinc endoprotease (1C7K).pdb</a></p>
+<p align="left">  Files that show the correction:  
+<a href="Zinc%20endoprotease,%20with%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20PM6-D3H4%20PM6-D3H4.mop">Zinc endoprotease (1C7K).mop</a>,
+<a href="Zinc%20endoprotease,%20with%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20PM6-D3H4%20PM6-D3H4.out">Zinc endoprotease (1C7K).out</a>,&nbsp;
+<a href="Zinc%20endoprotease,%20with%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20PM6-D3H4%20PM6-D3H4.html">Zinc endoprotease (1C7K).html</a>,&nbsp;
+<a href="Zinc%20endoprotease,%20with%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20PM6-D3H4%20PM6-D3H4.arc">Zinc endoprotease (1C7K).arc</a>, 
+and
+<a href="Zinc%20endoprotease,%20with%20S-N%20locked/Zinc%20endoprotease%20(1C7K)%20PM6-D3H4%20PM6-D3H4.pdb">Zinc endoprotease (1C7K).pdb</a>.</p>
+<h3 align="left">  Mild faults</h3>
+<p align="left">  &nbsp;</p>
+<p align="left" dir="ltr">  &nbsp;</p>
+<h2 align="left" dir="ltr"> <font size="5">General</font></h2>
+<p align="left" dir="ltr"> <font size="5">&nbsp;</font>&nbsp;Proteins were 
+selected to include a wide range of types.&nbsp; These cover: simple proteins, 
+such as crambin and barnase; metalloproteins, e.g., myoglobin, and calmodulin; 
+oligomeric proteins, e.g., hemoglobin and the potassium channel; and polymeric 
+proteins such as silk and a collagen-like protein. The purpose of the tables of 
+proteins is to show how to specify various types of proteins.&nbsp; The proteins 
+are not intended to be used directly for modeling experiments.&nbsp; No checks 
+have been done to ensure that the starting structures are chemically sensible.&nbsp; 
+The suggested check - to verify that all charged sites are valid - has not been 
+carried out.</p>
+<h2 align="left" dir="ltr">  Layout of the PM7 and PM6-D3H4 Proteins tables</h2>
+<p align="left" dir="ltr"> <b>No.:</b> Proteins are listed in alphabetical 
+order.&nbsp; The number only indicates where each protein is in that list. </p>
+<p align="left" dir="ltr"> <b>Protein: </b>All files for each protein is identified by 
+a name.&nbsp; This typically consists of the name of the protein in the
+<a href="https://www.rcsb.org/">PDB</a> and a four-digit name assigned by the 
+PDB. If the name is also a hyperlink, then the "Specific Script" will be active.&nbsp; 
+This will replace the default image of the protein with a feature of that 
+specific protein.</p>
+<p align="left" dir="ltr"> <b>No. atoms: </b>The total number of atoms in each system.&nbsp; 
+This includes hydrogen atoms, and all small molecules such as water, ligands 
+etc. that are present in each system.</p>
+<p align="left" dir="ltr"> <b>PDB: <span class="b"><br/>
+&Delta;</span>H<sub>f</sub>:
+</b>&nbsp;Proteins from the PDB often lack hydrogen atoms.&nbsp; These have been added and 
+their positions optimized, during this process, some 
+<a href="../Manual/salt_bridges.html">salt bridges</a> may form. The 
+heat of formation represents the protein with the positions of the hydrogen atoms 
+optimized. This is the starting geometry. <b>&nbsp;<span class="b">Jmol</span>:
+</b>A Jmol picture of the type generated by MOPAC when keyword
+<a href="../Manual/html.html">HTML</a> is used. <br/>
+<b><span class="b">ARC</span>: </b>The contents of the ARC file for the protein 
+will be downloaded.&nbsp; This can be copied to a local folder.<br/>
+<b><span class="b">PDB</span>: </b>The contents of the PDB file for the protein 
+will be downloaded.&nbsp; This can be copied to a local folder.</p>
+<p align="left"> <b>10 Kcal/<font face="Times New Roman">&Aring;<sup>2</sup></font> 
+constraint: <br/>
+</b>The starting geometry is allowed to relax slightly, i.e., all geometric variables were 
+optimized, but a restraint was imposed that imposed a penalty of 10 kcal mol<sup>-1</sup> 
+for every <font face="Times New Roman">&Aring;ngstrom<sup>2</sup> an atom moves from 
+its original position.</font> <br/>
+<b>&Delta;H<sub>f</sub>: </b>
+&nbsp;The heat of formation, in kcal mol<sup>-1</sup>, of the system. This 
+does not include the energy from the restraining function.<br/>
+<b>RMS: </b>The average motion is the average movement in &Aring;ngstroms of each 
+atom relative to the starting geometry.<b><span class="b"><br/>
+Jmol</span>: </b>A Jmol picture of the type generated by MOPAC when keyword HTML 
+is used. <br/>
+<b> <span class="b">ARC</span>: </b>The contents of the ARC file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.<br/>
+<b> <span class="b">PDB</span>: </b>The contents of the PDB file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.</p>
+<p align="left"> <b>3 Kcal/<font face="Times New Roman">&Aring;<sup>2</sup></font> 
+constraint:<br/>
+</b>This is similar to the  10 Kcal/<font face="Times New Roman">&Aring;<sup>2</sup></font> 
+constraint , but with the restraining 
+function replaced with 3 kcal mol<sup>-1</sup> <font face="Times New Roman">&Aring;<sup>-2</sup>.</font><b><br/>
+&Delta;H<sub>f</sub>: </b>
+&nbsp;The heat of formation, in kcal mol<sup>-1</sup>, of the system. This 
+does not include the energy from the restraining function.<b><br/>
+RMS: </b>The average motion is the average movement in &Aring;ngstroms of each 
+atom relative to the starting geometry.<b><span class="b"><br/>
+Jmol</span>: </b>A Jmol picture of the type generated by MOPAC when keyword HTML 
+is used. <br/>
+<b> <span class="b">ARC</span>: </b>The contents of the ARC file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.<br/>
+<b> <span class="b">PDB</span>: </b>The contents of the PDB file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.</p>
+<p align="left" dir="ltr"> <b>Unconstrained:<br/>
+&Delta;H<sub>f</sub>: </b>
+&nbsp;The heat of formation, in kcal mol<sup>-1</sup>, of the unconstrained 
+system.  <b><br/>
+RMS: </b>The average motion is the average movement in &Aring;ngstroms of each 
+atom relative to the starting geometry.<b><span class="b"><br/>
+Jmol</span>: </b>A Jmol picture of the type generated by MOPAC when keyword HTML 
+is used. <br/>
+<b> <span class="b">ARC</span>: </b>The contents of the ARC file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.<br/>
+<b> <span class="b">PDB</span>: </b>The contents of the PDB file for the 
+protein will be downloaded.&nbsp; This can be copied to a local folder.</p>
+<p align="left" dir="ltr"> <b>Statistics:</b></p>
+<p align="left" dir="ltr">  At the bottom of the tables there are average 
+Root-Mean-Square errors in &Aring;ngstroms for the biased and unbiased optimizations.&nbsp; 
+The reference geometries are the hydrogenated PDB systems.</p>
+<p align="left">  &nbsp;</p>
+<p align="left" dir="ltr">  &nbsp;</p>
+</body></html>
